@@ -18,10 +18,12 @@ let fatorial n = fatorial (n - 1) * n
 let primo n = if (fatores n) == [1,n] then True
 else False
 -}
-square = \x -> x*x
+
+
 --_______lambda ________________
 -- 1 pow x y
 {-
+square = \x -> x*x
 pow =  \x y -> case y of
          1 -> x
          0 -> 1
